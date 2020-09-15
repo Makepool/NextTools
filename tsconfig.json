@@ -1,0 +1,17 @@
+{
+	"compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./site/js/",
+    "target": "es2015",
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+	},
+	"include": ["src/**/*"],
+	"watchOptions": {
+		"watchFile": "useFsEvents",
+		"watchDirectory": "useFsEvents"
+	}
+}
